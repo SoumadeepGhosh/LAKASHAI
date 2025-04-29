@@ -17,9 +17,11 @@ export default async function CoverLetterPage() {
             Create New
           </Button>
         </Link>
+
       </div>
 
       <CoverLetterList coverLetters={coverLetters} />
+      <div className="grid-background" aria-hidden="true"></div>
     </div>
   );
 }
